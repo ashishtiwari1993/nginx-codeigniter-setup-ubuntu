@@ -1,4 +1,7 @@
 # nginx-ci-conf
+
+# ubuntu 16.XX, 14.XX, CodeIgniter 3.1.4
+
 Step1: Install Nginx with following commands.
         
         sudo apt-get update
