@@ -44,5 +44,9 @@ Step5: Create file with your domain name like 'yourdomain.com' and copy below co
 		}
 	}
 
-Step6: Restart your Nginx server with 'systemctl restart nginx.service' and hit 'yourdomain.com' in browser. You should able to see codeIgniter index page.
+Step7: Open ```/etc/nginx/nginx.conf``` . Add ```include /etc/nginx/sites-available/*``` under ```http{...}``` block.
+
+Step8: Complie nginx with ```sudo nginx -t```.
+
+Step9: Restart your Nginx server with ```systemctl restart nginx.service``` and hit ```yourdomain.com``` in browser. You should able to see codeIgniter index page.
  
