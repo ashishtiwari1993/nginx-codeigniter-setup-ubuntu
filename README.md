@@ -1,4 +1,4 @@
-# nginx-ci-conf
+# nginx codeigniter setup ubuntu
 
 ubuntu 16.xx, 14.xx, CodeIgniter 3.x.x
 
